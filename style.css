@@ -1,0 +1,84 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  display: grid;
+  grid-template-rows: 100px auto 55px;
+}
+header {
+  background: #1b39ca;
+  color: white;
+  padding: 0 0 0 0.5em;
+  display: grid;
+  grid-template-columns: auto 100px;
+}
+header h1.product-name {
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 0.2em;
+}
+header .motto {
+  color: #bbc2e0;
+  padding: 0 0 0 0.5em;
+}
+header .logo {
+  font-size: 5em;
+  margin: 0.1em 0 0 0;
+}
+
+footer {
+  background: #1f364c;
+  color: #9099a2;
+  text-align: center;
+  padding: 1em;
+}
+footer a, footer a:visited, footer a:focus {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+.content-header {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+.content-header .overlay {
+  position: absolute;
+  bottom: 40px;
+  left: 50px;
+  color: #1f364c;
+  font-weight: bold;
+  font-size: 2em;
+  background: #FFFFFF9A;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.content-header .overlay .highlight {
+  background: #1b39fe;
+  color: white;
+  border-radius: 4px;
+  padding: 4px;
+}
+.content-header .attribution {
+  background: #FFFFFF6E;
+  font-size: 10px;
+  font-style: italic;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 2px;
+  border-top-left-radius: 2px;
+}
+.page-container {
+}
+.content {
+  padding: 0 10% 0 10%;
+}
